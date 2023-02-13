@@ -12,3 +12,7 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+
+#修改默认主题
+sed -i 's/Bootstrap/Argon/g' ~/work/Xia-wrt/Xia-wrt/openwrt/feeds/luci/collections/luci/Makefile
+sed -i 's/bootstrap/argon/g' ~/work/Xia-wrt/Xia-wrt/openwrt/feeds/luci/collections/luci/Makefile
